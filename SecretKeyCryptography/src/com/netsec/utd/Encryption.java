@@ -16,7 +16,7 @@ public class Encryption {
 		// having a standard character set
 		byte[] stringBytes = message.getBytes("UTF8");
 
-		// encrypt using the cypher
+		// encrypt using the cipher
 		byte[] raw = cipher.doFinal(stringBytes);
 
 		return raw;

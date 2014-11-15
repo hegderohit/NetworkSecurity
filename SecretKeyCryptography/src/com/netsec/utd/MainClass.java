@@ -6,8 +6,11 @@ public class MainClass {
 	static Key key;
 
 	public static void main(String[] args) throws Exception {
+		// Class Object to generate the Session Key
 		KeyGeneration keyGeneration = new KeyGeneration();
+		// Encryption Object
 		Encryption encryption = new Encryption();
+		// Decryption Class
 		Decryption decryption = new Decryption();
 
 		keyGeneration.generateKey();
